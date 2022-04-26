@@ -1,9 +1,10 @@
 import React from 'react';
+import MuiMenu from './components/organisms/MuiMenu';
 
 function App() {
   return (
     <div>
-      Siema!
+      <MuiMenu />
     </div>
   );
 }
