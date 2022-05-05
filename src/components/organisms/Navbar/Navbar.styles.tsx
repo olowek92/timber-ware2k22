@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const NavbarItems = styled.nav`
     background: ${({ theme }) => theme.colors.mainDark};
-    height: 80px;
+    height: 10vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -43,7 +43,7 @@ export const NavbarList = styled.ul<{ active: boolean}>`
         width: 100%;
         height: 700px;
         position: absolute;
-        top: 80px;
+        top: 64px;
         left: ${({ active }) => active ? '0' : "-100%"};
         background: ${({ active }) => active ? '#1A242B' : ''};
         z-index: ${({ active }) => active ? '1' : ''};
